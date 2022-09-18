@@ -125,9 +125,16 @@ class Categories extends StatelessWidget {
                                   height: 70,
                                   width: 150,
                                   decoration: BoxDecoration(
-                                    color: Colors.purple,
-                                    borderRadius: BorderRadius.circular(15)
-                                  ),
+                                    borderRadius: BorderRadius.circular(15),
+                                    gradient: LinearGradient(
+                                      colors: [Colors.purple,
+                                        Colors.white
+                                      ],
+                                      begin: const FractionalOffset(0.7, 0.2),
+                                      end: const FractionalOffset(1.5, 3.5),
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp,
+                                    ),),
                                   child: Center(
                                      child: Text('Relationship', style: TextStyle(color: Colors.white),),
                                   ),
@@ -137,9 +144,16 @@ class Categories extends StatelessWidget {
                                   height: 70,
                                   width: 150,
                                   decoration: BoxDecoration(
-                                    color: Colors.orange,
-                                    borderRadius: BorderRadius.circular(15)
-                                  ),
+                                    borderRadius: BorderRadius.circular(15),
+                                    gradient: LinearGradient(
+                                      colors: [Colors.orange,
+                                        Colors.white
+                                      ],
+                                      begin: const FractionalOffset(0.7, 0.2),
+                                      end: const FractionalOffset(1.5, 3.5),
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp,
+                                    ),),
                                   child: Center(
                                      child: Text('Education', style: TextStyle(color: Colors.white),),
                                   ),
@@ -154,9 +168,16 @@ class Categories extends StatelessWidget {
                                   height: 70,
                                   width: 150,
                                   decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                    borderRadius: BorderRadius.circular(15)
-                                  ),
+                                    borderRadius: BorderRadius.circular(15),
+                                    gradient: LinearGradient(
+                                      colors: [Colors.blue,
+                                        Colors.white
+                                      ],
+                                      begin: const FractionalOffset(0.7, 0.2),
+                                      end: const FractionalOffset(1.5, 3.5),
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp,
+                                    ),),
                                   child: Center(
                                      child: Text('Career', style: TextStyle(color: Colors.white),),
                                   ),
@@ -166,9 +187,16 @@ class Categories extends StatelessWidget {
                                   height: 70,
                                   width: 150,
                                   decoration: BoxDecoration(
-                                    color: Colors.red,
-                                    borderRadius: BorderRadius.circular(15)
-                                  ),
+                                    borderRadius: BorderRadius.circular(15),
+                                    gradient: LinearGradient(
+                                      colors: [Colors.red,
+                                        Colors.white
+                                      ],
+                                      begin: const FractionalOffset(0.7, 0.2),
+                                      end: const FractionalOffset(1.5, 3.5),
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp,
+                                    ),),
                                   child: Center(
                                      child: Text('Others', style: TextStyle(color: Colors.white),),
                                   ),
